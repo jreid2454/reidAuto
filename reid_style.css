@@ -1,0 +1,219 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    background-color: lightgray;
+    font-family: "Arial Black", Gadget, sans-serif;
+    max-width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+@viewport{
+    width: device-width;
+    height: device-height;
+}
+#head{
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    background: rgb(23, 22, 22);
+}
+#title{
+    margin: 2% 0px 0px 2%;
+    color: gold;
+    float: left;
+    font-size: 36px;
+}
+#title a:hover{
+    color: yellow;
+}
+.list_item{
+    float: right;
+    list-style-type: none;
+    margin: 3% 1% 1% 4%;
+}
+a{
+   text-decoration: none;
+   color: inherit;
+}
+#list{
+    margin: 0;
+    margin-right: 5%;
+    font-size: 26px;
+    color: white;
+}
+#list a:hover{
+    color: yellow;
+}
+#footer {
+    width: 100%;
+    min-height: 100px;
+    background-color: rgb(23, 22, 22);
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+    position: absolute;
+    bottom: -50px;
+}
+#slider_wrapper {
+    width: 800px;
+    margin: auto;
+    margin-top: 7%;
+    background-color: rgba(128, 128, 128, .5);
+}
+
+#slider {
+    width: 800px;
+    height: 450px;
+    overflow: hidden;
+    margin: auto;
+}
+
+    #slider #slides {
+        display: block;
+        width: 6000px;
+        height: 450px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #slider .slide {
+        float: left;
+        list-style-type: none;
+        width: 800px;
+        height: 450px;
+        background-size: contain;
+    }
+
+#first {
+    background-image: url(/reidauto/pngPic19);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#second {
+    background-image: url(/reidauto/pic4);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#third {
+    background-image: url(/reidauto/pngPic16);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#fourth {
+    background-image: url(/reidauto/pngPic9);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#fifth {
+    background-image: url(/reidauto/pic1);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#sixth {
+    background-image: url(/reidauto/pic3);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#aboutUs{
+    width: 80%;
+    margin: auto;
+    
+}
+#aboutUs h1{
+    text-align: center;
+    font-size: 45px;
+}
+    #aboutUs h4 {
+        text-align: center;
+        font-size: 25px;
+        margin: 0;
+    }
+    #aboutUs ul{
+        list-style-type: none;
+        width: 25%;
+       margin: auto;
+    }
+    #aboutUs p {
+        font-size: 22px;
+        font-family: "Lucida Console", Monaco, monospace;
+        padding-bottom: 100px;
+    }
+
+#pricing{
+    padding-bottom: 100px;
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#price_list{
+    list-style-type: none;
+    width: 750px;
+    margin: auto;
+    padding: 25px;
+}
+.price {
+    height: 150px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 25px;
+}
+.price h1{
+    float: left;
+    margin: 0;
+}
+.price h2{
+    float: right;
+    margin: 0;
+    position: relative;
+}
+.wrap{
+    width: 350px;
+    margin: 0;
+    margin-right: 0px;
+    display: inline-block;
+}
+#contact{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+}
+#contact a{
+    color: blue;
+}
+#map {
+    width: 600px;
+    margin: auto;
+    margin-bottom: 3%;
+    padding-bottom: 100px;
+}
+#workPics{
+    text-align: center;
+    width: 1200px;
+    margin: auto;
+}
+#workPics ul{
+    
+    list-style-type: none;
+    position: ablsolute;
+}
+#workPics li {
+    float: left;
+    height: 300px;
+    width: 200px;
+    margin: 5px;
+}
+img {
+    height: 300px;
+    width: 200px;
+}

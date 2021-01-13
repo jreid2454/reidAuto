@@ -1,0 +1,18 @@
+{
+  "name": "reidAuto",
+  "version": "1.0.0",
+  "description": "reidAuto",
+  "main": "reidApp.js",
+  "scripts": {
+    "dev": "nodemon reidApp.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "forever": "^3.0.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {}
+}
